@@ -59,8 +59,6 @@ class RemoteFeedLoaderTests: XCTestCase {
             client.complete(withStatusCode: code, at: index)
             
             XCTAssertEqual(captureErrors, [.invalidData])
-            
-            captureErrors = []
         }
     }
     
