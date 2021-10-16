@@ -38,8 +38,8 @@ class URLSessionHTTPClientTests: XCTestCase {
         let exp = expectation(description: "Wait for completion")
         sut.get(from: url) { result in
             switch result {
-                case let .failure(receivedError as NSError):
-                XCTAssertEqual(receivedError, error)
+                case let .failure(receivedError):
+                XCTAssertNotNil(receivedError)
             default:
                 XCTFail("Expected failure with error \(error), got \(result) instead")
             }
