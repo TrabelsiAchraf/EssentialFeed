@@ -40,7 +40,7 @@ class RemoteFeedLoaderTests: XCTestCase {
         let (sut, client) = makeSUT()
         
         expect(sut, toCompleteWith: failure(.connectivity), when: {
-            let clientError = NSError(domain: "Test", code: 0)
+            let clientError = NSError(domain: "an error", code: 0)
             client.complete(with: clientError)
         })
     }
