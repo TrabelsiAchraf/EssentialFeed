@@ -189,6 +189,7 @@
 				FD0AFE862750FCF1009CF6D1 /* EssentialFeediOS */,
 				FD0AFE922750FCF2009CF6D1 /* EssentialFeediOSTests */,
 				164CFB1B2710941C00F36330 /* Products */,
+				FD0AFE9F27510ED8009CF6D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -247,6 +248,13 @@
 				FD0AFE9C27510A4A009CF6D1 /* FeedViewControllerTests.swift */,
 			);
 			path = EssentialFeediOSTests;
+			sourceTree = "<group>";
+		};
+		FD0AFE9F27510ED8009CF6D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FD11028A2725D96700639B1A /* Helpers */ = {
